@@ -107,6 +107,7 @@ public class StatusTests {
                 .body("total", is(20))
                 .body("browsers.chrome", hasKey("100.0"));
     }
+
     @Test
     void checkTotalWithAssert() {
         Response statusResponse = given()
