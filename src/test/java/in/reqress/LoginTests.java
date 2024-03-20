@@ -1,4 +1,4 @@
-package tests;
+package in.reqress;
 
 import org.junit.jupiter.api.Test;
 
